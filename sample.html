@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        /* Add padding to containers */
+        
+        .container {
+            padding: 16px;
+            background-color: white;
+        }
+        /* Full-width input fields */
+        
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+        /* Overwrite default styles of hr */
+        
+        hr {
+            border: 1px solid #f1f1f1;
+            margin-bottom: 25px;
+        }
+        /* Set a style for the submit button */
+        
+        .registerbtn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+        
+        .registerbtn:hover {
+            opacity: 1;
+        }
+        /* Add a blue text color to links */
+        
+        a {
+            color: dodgerblue;
+        }
+        /* Set a grey background color and center the text of the "sign in" section */
+        
+        .signin {
+            background-color: #f1f1f1;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+
+  <div class="col-md-6 col-lg-6">
+    
+  
+      <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScKn28W7ZsbB66SwDPprOUJZg0JiwaGQFgODAJSQN4GcHmwGQ/formResponse" class="reg-form" method="post" id="form">
+          <h2 style="margin: 10px auto;">Registration Form</h2>
+          <input class="user-input" type="text" name="entry.984016319" id="name" placeholder="Name" required="">
+          <input class="user-input" type="text" name="entry.152714719" id="email" placeholder="Email Address" required="">
+          <input class="user-input" type="text" name="entry.2121770474" id="phnNumber" placeholder="Phone Number" required="">
+          <input class="user-input" type="text" name="entry.271437539" id="college" placeholder="College" required="">
+          <input class="user-input" type="text" name="entry.404836008" id="id" placeholder="IEEE membership Id" required="">
+          <input type="submit" value="Register" id="submit">
+      </form>
+  </div>
+  
